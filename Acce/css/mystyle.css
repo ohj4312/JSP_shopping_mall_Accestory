@@ -1,0 +1,151 @@
+x	@charset "utf-8";
+	/* CSS Document*/
+
+	* {
+  	box-sizing: border-box;
+	}
+
+	ul.header_0{
+	list-style-type: none;
+	margin-top:15px;
+	padding:0;
+	overflow: hidden;
+	}
+
+	ul.header_0 li{
+	float:right;
+	}
+
+	ul.header_0 li a{
+	display: flex;
+	color:black;
+	font-size: 12px;
+	text-align:center;
+	padding: 20px 20px;
+	font-family:Haan Baekje M;
+	text-decoration: none;
+	}
+
+	.header img{
+	display: flex;
+	justify-content: center;
+	max-width:50%;
+	margin-right:auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	}
+
+	
+	ul.menu{
+	list-style-type: none;
+	margin-top:15px;
+	padding:0;
+	overflow: hidden;
+	background-color:#0d699a;
+	}
+
+	ul.menu li{
+	float:left;
+	}
+
+	ul.menu li a{
+	display: flex;
+	color:white;
+	text-align:center;
+	padding: 20px 20px;
+	font-family:Haan Baekje M;
+	text-decoration: none;
+	}
+
+	.menu a:hover {
+	color:#333835;
+	background-color: white;}	
+	
+	@media screen and (max-width: 600px) {
+  	ul.menu li {
+	float: none;
+	display: flex;
+	justify-content: center;
+	}
+	}
+
+	.main{
+ 	 margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right:auto;
+	margin-left: auto;
+	 display: flex;
+	justify-content:center;
+	max-width:60%;
+	}
+	
+	.mid{
+	margin-right:auto;
+	margin-left: auto;
+	 display: flex;
+	justify-content:center;
+	}
+
+	div.recom img{
+	display:block;
+	width:100%;
+	height:100%;
+	float:right;
+	}
+	
+	div.recom{
+	margin: 15px 8px;
+	float:left;
+	}
+	
+	.gongji{
+	display: block;
+	border: 3px solid #394a3d;
+	width:420px;
+	height:445px;
+	float:left;
+	font-size:20px;
+	text-align: center;
+	}
+	
+	div.recipe{
+	display: flex;
+	justify-content: center;
+	margin:15px 15px;
+  	border: 1px solid #ccc;
+ 	 float: right;
+ 	 width: 180px;
+	}
+	
+	div.recipe:hover {
+ 	border: 1px solid #777;
+	}
+
+	div.recipe img {
+ 	width: 100%;
+  	height: 100%;
+	}
+
+	.footer {
+	color:#6d6d6d;
+	background-color:#c9c9c9;
+	text-align:center;
+	padding:50px;
+	font-family:Gulim; 
+	font-size:8pt;
+	margin-top:20px;
+	}
+	
+	.hi
+	{ background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	
+	}
+	.hi{
+  background-color: red;
+}
+	
